@@ -1,8 +1,9 @@
 <!-- app.component.html -->
+<h1 style="display: flex; justify-content: center; align-items: center;">FILMES PARA ANIMAR SEU DIA</h1>
 
-<div>
-  <label for="categoriaInput">Digite a categoria:</label>
-  <input type="text" id="categoriaInput" [(ngModel)]="categoriaSelecionada" />
+<div style="display: flex; justify-content: center; align-items: center;">
+  <label for="categoriaInput">Digite o gênero do filme:</label>
+  <input style="margin: 16px;" type="text" id="categoriaInput" [(ngModel)]="categoriaSelecionada" />
   <button (click)="filtrarFilmes()">Filtrar</button>
 </div>
 

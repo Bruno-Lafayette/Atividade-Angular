@@ -11,12 +11,10 @@ import { FilmesComponent } from './filmes/filmes.component';
   declarations: [
     AppComponent,
     FilmesComponent,
-    // ... outros componentes
   ],
   imports: [
     BrowserModule,
-    FormsModule, // Adicione esta linha
-    // ... outros módulos
+    FormsModule,
   ],
   bootstrap: [AppComponent]
 })
